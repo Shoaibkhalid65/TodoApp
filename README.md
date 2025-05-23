@@ -31,68 +31,53 @@ Built using **MVVM Architecture**, **Room Persistence Library**, **FastAdapter**
 
 ## 📸 Screenshots
 ### 🏠 Main Screen
-![Main Screen](drawable/checklist.png)
-
 [todo_1](https://github.com/user-attachments/assets/9ec5e53d-619c-4eb2-b52b-5d03796c8816)
+### 📝 Add Task
+![todo_2](https://github.com/user-attachments/assets/903a4a66-55be-40f4-aa3e-02d1059af985)
+### 📝 Update Task
+![todo_3](https://github.com/user-attachments/assets/6ac02cce-3759-48b5-98eb-718f268d3648)
+
 
 
 ---
-
-## 🧑‍💻 Getting Started
-
-To build and run this app on your local machine:
-
 ### 🔧 Prerequisites
 - Android Studio Hedgehog or later
 - Android SDK 21+
 - Kotlin 1.9+
 - Gradle 8+
 
-### 🛠 Setup
-
-1. Clone the repo
-   ```bash
-   git clone https://github.com/yourusername/todo-list-app.git
-````
-
-2. Open in Android Studio
-3. Let Gradle sync and build the project
-4. Run the app on an emulator or real device
-
----
-
 ## 📁 Project Structure
 
 ```
 com.example.todolist
 │
-├── data
-│   └── Task.kt (Entity)
-│   └── TaskDao.kt
-│   └── AppDatabase.kt
-│
-├── repository
-│   └── TaskRepository.kt
-│
-├── ui
-│   └── TaskAdapter.kt
+├── model
+│   └── Todo.kt (Entity)
+│   └── TodoDao.kt
+│   └── TodoDatabase.kt
+│   └── TodoRepository.kt
+
+├── view
+│   └── AddTodoFragment.kt
 │   └── MainActivity.kt
-│   └── TaskViewModel.kt
-│   └── TaskViewModelFactory.kt
-│
+│   └── TodoItem.kt
+
+├── viewmodel
+│   └── MainViewModel.kt
+│   └── MainViewModelFactory.kt
+
 ├── layout
 │   └── activity_main.xml
-│   └── item_task.xml
+│   └── add_task_fragment.xml
+│   └── task_item_view.xml
 ```
-
----
 
 ## 📦 Dependencies
 
 ```kotlin
 // Room
-implementation "androidx.room:room-runtime:2.6.1"
-kapt "androidx.room:room-compiler:2.6.1"
+implementation "androidx.room:room-runtime:2.7.1"
+kapt "androidx.room:room-compiler:2.7.1"
 
 // Lifecycle
 implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0"
@@ -112,15 +97,10 @@ implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0"
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/yourusername/todo-list-app/issues) if you'd like to contribute.
+Feel free to check the [issues page](https://github.com/Shoaibkhalid65/TodoApp/issues) if you'd like to contribute.
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙌 Acknowledgements
 
@@ -131,9 +111,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **If you like this project, give it a star!**
 
-```
-
----
-
-Let me know if you want to include actual screenshots, license text, or GitHub badges!
 ```
