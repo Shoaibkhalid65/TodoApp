@@ -16,6 +16,7 @@ Built using **MVVM Architecture**, **Room Persistence Library**, **FastAdapter**
 - 🧠 Clean separation of concerns using MVVM
 - ⚡ Fast and efficient list management with FastAdapter
 
+
 ---
 
 ## 🛠 Tech Stack
