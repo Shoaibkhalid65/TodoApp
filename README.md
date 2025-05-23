@@ -11,7 +11,8 @@ Built using **MVVM Architecture**, **Room Persistence Library**, **FastAdapter**
 - 🔄 Update existing tasks
 - ❌ Delete tasks
 - 📋 View all saved tasks
-- 🔁 Live UI updates with LiveData
+- 🔁 Live UI updates with LiveData!
+
 - 🧠 Clean separation of concerns using MVVM
 - ⚡ Fast and efficient list management with FastAdapter
 
@@ -30,7 +31,7 @@ Built using **MVVM Architecture**, **Room Persistence Library**, **FastAdapter**
 
 ## 📸 Screenshots
 
-*(Include your app screenshots here if available)*
+[todo_1](https://github.com/user-attachments/assets/9ec5e53d-619c-4eb2-b52b-5d03796c8816)
 
 ---
 
