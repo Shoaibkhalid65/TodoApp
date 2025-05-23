@@ -30,8 +30,11 @@ Built using **MVVM Architecture**, **Room Persistence Library**, **FastAdapter**
 ---
 
 ## 📸 Screenshots
+### 🏠 Main Screen
+![Main Screen](drawable/checklist.png)
 
 [todo_1](https://github.com/user-attachments/assets/9ec5e53d-619c-4eb2-b52b-5d03796c8816)
+
 
 ---
 
